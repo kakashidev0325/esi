@@ -4,7 +4,7 @@
 (() => {
   'use strict';
 
-  const CONTRACT = '0x32c9b4a001a4b5313e24a1eca9563c532728cbe1';
+  const CONTRACT = '0x6589c3039083e2bb3154c65108a15af0aaf11a93';
   const hasContract = /^0x[0-9a-fA-F]{40}$/.test(CONTRACT);
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const coarse = matchMedia('(pointer: coarse)').matches;
